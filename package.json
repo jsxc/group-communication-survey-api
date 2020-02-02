@@ -1,0 +1,37 @@
+{
+  "name": "group-communication-survey-api",
+  "version": "0.1.0",
+  "description": "XMPP Connection Discovery as a Service",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.2",
+    "@types/node": "^13.7.0",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.7",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,json,css,md}": [
+      "prettier --single-quote --trailing-comma all --write",
+      "git add"
+    ]
+  }
+}
