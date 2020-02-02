@@ -1,11 +1,9 @@
 {
   "name": "group-communication-survey-api",
   "version": "0.1.0",
-  "description": "XMPP Connection Discovery as a Service",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts",
-    "build": "tsc"
+    "start": "npm run start-watch",
+    "start-watch": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
