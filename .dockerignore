@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+
+# TS builds
+dist
+
+# Logs
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode
+.idea
+*.iml
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Git
+.git
+.gitignore
+
+# MongoDB persistence
+mongodb
