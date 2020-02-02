@@ -1,4 +1,5 @@
-import { startServer, startMongoDBConnection } from './server';
+import { startServer } from './server';
+import { startMongoDBConnection } from './database';
 import { loadEnvironmentVariables, getPort } from './utilities';
 
 (async () => {
