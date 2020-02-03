@@ -1,0 +1,1 @@
+export { createSurveyResult } from './logic';
