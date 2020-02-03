@@ -1,11 +1,5 @@
 import { Mongoose } from 'mongoose';
 
-/* Generic */
-
-export type Dictionary<T = any> = {
-  [key: string]: T;
-};
-
 /* Server */
 
 export { Server } from 'http';
@@ -14,16 +8,26 @@ export { Server } from 'http';
 
 export type Database = Mongoose;
 
-/* Validation */
+/* Survey Results */
 
-export type Constraints = {
-  [path: string]: {
-    validationFunction: (value: any) => boolean;
-    invalidMessage: (value: any) => string;
-  };
+export type SurveyResult = {
+  name: string;
+  isMale: boolean;
+  age: number;
+  region: string;
+  definition: string;
+  expectation: string;
+  usesGroupChatClient: boolean;
+  groupsCount: number;
+  regularlyUsedGroupsCount: number;
+  smallestGroupMembersCount: number;
+  largestGroupMembersCount: number;
+  firstChatFeedback: ChatFeedback;
+  secondChatFeedback: ChatFeedback;
+  thirdChatFeedback: ChatFeedback;
+  fourthChatFeedback: ChatFeedback;
+  fifthChatFeedback: ChatFeedback;
+  opinionOnRepresentations: string;
 };
 
-export type ValidationResult = {
-  isValid: boolean;
-  message: string;
-};
+type ChatFeedback = number[];
