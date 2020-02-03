@@ -1,11 +1,30 @@
 import { Router } from 'express';
+import { createSurveyResult } from '../database';
 
 export default () => {
   const api = Router();
 
+  api.post('/survey-result', async (req, res) => {
+    const surveyResult = req.body;
+
+    try {
+      const createdSurveyResult = await createSurveyResult(surveyResult);
+
+      return res.status(201).json({
+        error: null,
+        data: { surveyResult: createdSurveyResult },
+      });
+    } catch (error) {
+      return res.status(400).json({
+        error: { message: error.message },
+        data: null,
+      });
+    }
+  });
+
   api.use((req, res) => {
     return res.status(404).json({
-      error: { message: 'Not Found' },
+      error: { message: 'Route Not Found' },
       data: null,
     });
   });
