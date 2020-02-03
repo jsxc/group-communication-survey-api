@@ -13,3 +13,17 @@ export { Server } from 'http';
 /* Database */
 
 export type Database = Mongoose;
+
+/* Validation */
+
+export type Constraints = {
+  [path: string]: {
+    validationFunction: (value: any) => boolean;
+    invalidMessage: (value: any) => string;
+  };
+};
+
+export type ValidationResult = {
+  isValid: boolean;
+  message: string;
+};
