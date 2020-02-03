@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
-import { match } from './utilities';
-import constants from './constants';
-import { Database } from './types';
+import { match } from '../utilities';
+import constants from '../constants';
+import { Database } from '../types';
 
 export const startMongoDBConnection = async (): Promise<Database> => {
   const mongodbConnectionUri: string = match<string, string>([
