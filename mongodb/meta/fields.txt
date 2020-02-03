@@ -1,0 +1,17 @@
+name
+isMale
+age
+region
+definition
+expectation
+usesGroupChatClient
+groupsCount
+regularlyUsedGroupsCount
+smallestGroupMembersCount
+largestGroupMembersCount
+firstChatFeedback
+secondChatFeedback
+thirdChatFeedback
+fourthChatFeedback
+fifthChatFeedback
+opinionOnRepresentations

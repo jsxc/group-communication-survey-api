@@ -24,5 +24,6 @@ Dockerfile
 .git
 .gitignore
 
-# MongoDB persistence
-mongodb
+# MongoDB
+mongodb/data
+mongodb/exports

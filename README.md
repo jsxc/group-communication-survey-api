@@ -39,3 +39,7 @@
 - `❯ yarn`
 - `❯ docker-compose --file docker-compose.dev.yml up -d`
 - `❯ yarn start`
+
+## Export Data
+
+- `❯ ./export.sh`

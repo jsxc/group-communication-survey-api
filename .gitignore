@@ -20,4 +20,5 @@ Thumbs.db
 *.iml
 
 # MongoDB
-mongodb
+mongodb/data
+mongodb/exports
