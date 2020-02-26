@@ -15,7 +15,7 @@ services:
       MONGO_INITDB_ROOT_USERNAME: $MONGODB_USERNAME
       MONGO_INITDB_ROOT_PASSWORD: $MONGODB_PASSWORD
   api:
-    container_name: api
+    container_name: group-communication-survey-api
     build:
       context: ./
       dockerfile: Dockerfile
