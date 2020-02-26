@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MONGODB_DOCKER_CONTAINER_NAME=mongodb
+MONGODB_DOCKER_CONTAINER_NAME=group-communication-survey-mongodb
 MONGODB_CREDENTIALS_ENV_FILE=.env
 MONGODB_AUTH_DATABASE=admin
 MONGODB_DATABASE=group-communication-survey
@@ -12,7 +12,7 @@ MONGODB_EXPORT_FILE=/var/mongodb/exports/`date +%s`.csv
 MONGODB_USERNAME=$(awk -F '=' '/MONGODB_USERNAME/ { print $2 }' $MONGODB_CREDENTIALS_ENV_FILE)
 MONGODB_PASSWORD=$(awk -F '=' '/MONGODB_PASSWORD/ { print $2 }' $MONGODB_CREDENTIALS_ENV_FILE)
 
-sudo docker exec mongodb \
+sudo docker exec $MONGODB_DOCKER_CONTAINER_NAME \
       mongoexport \
         -u $MONGODB_USERNAME \
         -p $MONGODB_PASSWORD \
