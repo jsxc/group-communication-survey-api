@@ -1,21 +1,18 @@
 import { model, Schema, Model, Document } from 'mongoose';
 
 const surveyResultSchema: Schema = new Schema({
-  id: {
-    type: Schema.Types.ObjectId,
-  },
-  name: {
+  'What is your name?': {
     type: String,
   },
-  isMale: {
-    type: Boolean,
+  'Specify your sex:': {
+    type: String,
     required: true,
   },
-  age: {
+  'How old are you?': {
     type: Number,
     required: true,
   },
-  region: {
+  'Which region are you from?': {
     type: String,
     required: true,
     enum: [
@@ -27,61 +24,93 @@ const surveyResultSchema: Schema = new Schema({
       'Australia',
     ],
   },
-  definition: {
+  'What do you think are properties that define group communication?': {
     type: String,
     required: true,
   },
-  expectation: {
+  'What are you expecting from a digital group?': {
     type: String,
     required: true,
   },
-  usesGroupChatClient: {
-    type: Boolean,
+  'Do you use group chat clients such as WhatsApp?': {
+    type: String,
     required: true,
   },
-  groupsCount: {
+  'How many groups do you have?': {
     type: Number,
   },
-  regularlyUsedGroupsCount: {
+  'How many groups do you use regularly?': {
     type: Number,
   },
-  smallestGroupMembersCount: {
+  'How many members does the smallest group have?': {
     type: Number,
   },
-  largestGroupMembersCount: {
+  'How many members does the largest group have?': {
     type: Number,
   },
-  firstChatFeedback: [
-    {
-      type: Number,
+  firstChatFeedback: {
+    'How well did you understand the conversation?': {
+      type: String,
       required: true,
     },
-  ],
-  secondChatFeedback: [
-    {
-      type: Number,
+    'Did Lara watch the game?': {
+      type: String,
       required: true,
     },
-  ],
-  thirdChatFeedback: [
-    {
-      type: Number,
+  },
+  secondChatFeedback: {
+    'How well did you understand the conversation?': {
+      type: String,
       required: true,
     },
-  ],
-  fourthChatFeedback: [
-    {
-      type: Number,
+    'Is Arthur alright?': {
+      type: String,
       required: true,
     },
-  ],
-  fifthChatFeedback: [
-    {
-      type: Number,
+    'Does Arthur know the other driver involved in the accident?': {
+      type: String,
       required: true,
     },
-  ],
-  opinionOnRepresentations: {
+  },
+  thirdChatFeedback: {
+    'How well did you understand the conversation?': {
+      type: String,
+      required: true,
+    },
+    'Did Karl prepare the presentation?': {
+      type: String,
+      required: true,
+    },
+    'Did Karl prepare the invitation?': {
+      type: String,
+      required: true,
+    },
+  },
+  fourthChatFeedback: {
+    'How well did you understand the conversation?': {
+      type: String,
+      required: true,
+    },
+    'Will Emil be lent money?': {
+      type: String,
+      required: true,
+    },
+  },
+  fifthChatFeedback: {
+    'How well did you understand the conversation?': {
+      type: String,
+      required: true,
+    },
+    'How many people reported sick?': {
+      type: String,
+      required: true,
+    },
+    'Is the day going smoothly?': {
+      type: String,
+      required: true,
+    },
+  },
+  'What do you think of the new representations?': {
     type: String,
     required: true,
   },

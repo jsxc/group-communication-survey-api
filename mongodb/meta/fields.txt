@@ -1,17 +1,17 @@
-name
-isMale
-age
-region
-definition
-expectation
-usesGroupChatClient
-groupsCount
-regularlyUsedGroupsCount
-smallestGroupMembersCount
-largestGroupMembersCount
+What is your name?
+Specify your sex:
+How old are you?
+Which region are you from?
+What do you think are properties that define group communication?
+What are you expecting from a digital group?
+Do you use group chat clients such as WhatsApp?
+How many groups do you have?
+How many groups do you use regularly?
+How many members does the smallest group have?
+How many members does the largest group have?
 firstChatFeedback
 secondChatFeedback
 thirdChatFeedback
 fourthChatFeedback
 fifthChatFeedback
-opinionOnRepresentations
+What do you think of the new representations?
