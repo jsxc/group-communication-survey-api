@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import consola from 'consola';
 import { createSurveyResult } from '../database';
 
 export default () => {
@@ -15,6 +16,8 @@ export default () => {
         data: { surveyResult: createdSurveyResult },
       });
     } catch (error) {
+      consola.error(error);
+
       return res.status(400).json({
         error: { message: error.message },
         data: null,

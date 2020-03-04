@@ -1,3 +1,4 @@
+import consola from 'consola';
 import { startServer } from './server';
 import { startMongoDBConnection } from './database';
 import { loadEnvironmentVariables, getPort } from './utilities';
@@ -13,8 +14,8 @@ import { loadEnvironmentVariables, getPort } from './utilities';
     const database = await startMongoDBConnection();
     const server = startServer();
 
-    console.log(`Server is running on port ${getPort(server)}...`);
+    consola.success(`Server is running on port ${getPort(server)}...`);
   } catch (error) {
-    console.log('Failed to start server:', error);
+    consola.fatal('Failed to start server:', error);
   }
 })();
