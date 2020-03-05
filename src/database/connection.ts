@@ -5,8 +5,8 @@ import { Database } from '../types';
 
 export const startMongoDBConnection = async (): Promise<Database> => {
   const mongodbConnectionUri: string = match<string, string>([
-    { if: 'production', then: constants.mongodb.connectionUri.production },
     { if: 'development', then: constants.mongodb.connectionUri.development },
+    { if: 'production', then: constants.mongodb.connectionUri.production },
   ])(process.env.NODE_ENV);
 
   const mongodbConnectionOptions = {
