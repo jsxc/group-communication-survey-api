@@ -1,6 +1,7 @@
 import http from 'http';
 import express from 'express';
 import helmet from 'helmet';
+import compression from 'compression';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import api from './api';
@@ -14,6 +15,7 @@ export const startServer = (): Server => {
 
   app.use(cors());
   app.use(helmet());
+  app.use(compression());
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use('/api/', api());
