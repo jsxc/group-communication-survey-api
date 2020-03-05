@@ -24,5 +24,5 @@ COPY . .
 # Expose port
 EXPOSE 4000
 
-# Run migrations and then run app once database is ready
+# Run app once database is ready
 CMD dockerize -wait tcp://mongodb:27017 -timeout 60m yarn start
