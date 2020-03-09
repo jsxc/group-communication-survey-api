@@ -2,13 +2,61 @@ What is your name?
 Specify your sex:
 How old are you?
 Which region are you from?
-What do you think are properties that define group communication?
-What are you expecting from a digital group?
-Do you use group chat clients such as WhatsApp?
+Even if I am not allowed to talk, I always have the possibility to do so
+I am always able to hear everyone speaking
+I am always attentive during a discussion
+I always understand every statement acousticly and contentually
+I am never distracted during a discussion
+I always know who is talking
+I always know the person who is speaking
+I always know every participant in a group
+If there are no tapping devices a single member can not prove that someone said something
+If there are no tapping devices a single member can not prove that someone was a member of a specific group
+It is sometimes important that no member in a group can prove that someone said something
+Confidential private topics are only discussed in small groups
+I always leave a group with an announcement
+If I want to leave a group in my favorite chat app, I will always give a reason
+Are there cases where two or more people are talking at the same time?
+What is the result if two or more people are talking at the same time?
+What is the most common reaction if two or more people are talking at the same time?
+What do you thing are the most frequent reasons of distraction even if you are interested at some discussion?
+What are you doing if you are announcing something important?
+Imagine you were distracted and you are now unable to follow the conversation. How do you react?
+What is your most common reaction if a statement is unclear to you?
+What is your reaction if you were not able to understand something acousticly?
+Is there a difference in communication between business and leisure groups?
+What are you doing if you do not know someone in a group?
+Are you always knowing who will hear your message?
+Are you aware of that?
+In which cases is it especially important for you who will hear your messages?
+Would it be sometimes important for you that nobody in the group can prove that you said something?
+Would it be sometimes important for you that nobody in the group can prove that you were part in a group?
+Do you thing there are use cases in which plausible deniability of group membership is important?
+Would it influence your behaviour if everything you say would be immediately published?
+Are there special requirements for groups if confidential topics are discussed?
+Which statements are true for the admission of a new member in a business group?
+Which statements are true for the admission of a new member in a casual group?
+Which statements are true for the admission of a new member in a confidential group?
+How do you react if a new person joins a group that you don't like?
+Do you use programs that allow you to communicate with groups?
+Which is your favorite digital group chat messenger?
+Which digital group chat messenger do you use most?
 How many groups do you have?
 How many groups do you use regularly?
 How many members does the smallest group have?
 How many members does the largest group have?
+Do you expect that everyone reads your message in a group chat?
+Do you thing everyone is reading all your messages in a group chat?
+Are you always reading all messages in a group chat?
+Would you publish all your conversations in your favorite group chat app?
+Would you publish a complete list of groups you are part of in your favorite group chat app?
+How do you react if a new member joins a group of good friends/business group/club group?
+What is your most common reaction if a new member, which you don't like, is added to a group?
+What is your most common reaction if you are added to a group which you don't like to be part of?
+How often does this happen?
+What are you doing if you don't want to participate in a digital group?
+Which visualization would you like to have integrated in your favorite chat app?
+Which feature are you missing in your favorite chat app?
 firstChatFeedback
 secondChatFeedback
 thirdChatFeedback
