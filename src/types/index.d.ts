@@ -109,7 +109,7 @@ export type SurveyResult = {
   };
   secondChatFeedback: {
     'How well did you understand the conversation?': string;
-    'Is Arthur alright?': string;
+    'Could you explain the purpose of the added chat elements?': string;
   };
   thirdChatFeedback: {
     'How well did you understand the conversation?': string;
