@@ -318,10 +318,6 @@ const surveyResultSchema: Schema = new Schema({
       type: String,
       required: true,
     },
-    'Does Arthur know the other driver involved in the accident?': {
-      type: String,
-      required: true,
-    },
   },
   thirdChatFeedback: {
     'How well did you understand the conversation?': {

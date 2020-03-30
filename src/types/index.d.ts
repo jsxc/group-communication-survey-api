@@ -110,7 +110,6 @@ export type SurveyResult = {
   secondChatFeedback: {
     'How well did you understand the conversation?': string;
     'Is Arthur alright?': string;
-    'Does Arthur know the other driver involved in the accident?': string;
   };
   thirdChatFeedback: {
     'How well did you understand the conversation?': string;
