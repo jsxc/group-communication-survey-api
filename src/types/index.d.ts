@@ -11,7 +11,7 @@ export type Database = Mongoose;
 /* Survey Results */
 
 export type SurveyResult = {
-  'What is your name?': string;
+  'What is your email address?': string;
   'Specify your sex:': string;
   'How old are you?': number;
   'Which region are you from?': string;

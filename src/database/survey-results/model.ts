@@ -1,7 +1,7 @@
 import { model, Schema, Model, Document } from 'mongoose';
 
 const surveyResultSchema: Schema = new Schema({
-  'What is your name?': {
+  'What is your email address?': {
     type: String,
   },
   'Specify your sex:': {

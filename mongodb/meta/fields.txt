@@ -1,4 +1,4 @@
-What is your name?
+What is your email address?
 Specify your sex:
 How old are you?
 Which region are you from?
