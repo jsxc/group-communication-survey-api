@@ -304,7 +304,7 @@ const surveyResultSchema: Schema = new Schema({
       type: String,
       required: true,
     },
-    'Did Lara watch the game?': {
+    'Did you notice something?': {
       type: String,
       required: true,
     },

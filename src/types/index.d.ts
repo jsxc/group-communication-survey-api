@@ -105,7 +105,7 @@ export type SurveyResult = {
   'Which feature are you missing in your favorite chat app?': string;
   firstChatFeedback: {
     'How well did you understand the conversation?': string;
-    'Did Lara watch the game?': string;
+    'Did you notice something?': string;
   };
   secondChatFeedback: {
     'How well did you understand the conversation?': string;
