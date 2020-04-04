@@ -9,7 +9,7 @@ export const loadEnvironmentVariables = (variables: string[]): void => {
 
   let missingVariables: string[] = [];
 
-  variables.forEach(variable => {
+  variables.forEach((variable) => {
     if (!process.env[variable]) {
       missingVariables = missingVariables.concat(variable);
     }
