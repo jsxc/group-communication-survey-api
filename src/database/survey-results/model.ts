@@ -318,7 +318,7 @@ const surveyResultSchema: Schema = new Schema({
       type: String,
       required: true,
     },
-    'Could you explain the purpose of the added chat elements shown in screenshot #2': {
+    'Could you explain the purpose of the added chat elements shown in screenshot #2?': {
       type: String,
       required: true,
     },
