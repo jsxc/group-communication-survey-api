@@ -326,39 +326,21 @@ const surveyResultSchema: Schema = new Schema({
   thirdChatFeedback: {
     'How well did you understand the conversation?': {
       type: String,
-      // required: true,
+      required: true,
     },
-    'Did Karl prepare the presentation?': {
+    'Did you notice something?': {
       type: String,
-      // required: true,
-    },
-    'Did Karl prepare the invitation?': {
-      type: String,
-      // required: true,
+      required: true,
     },
   },
   fourthChatFeedback: {
     'How well did you understand the conversation?': {
       type: String,
-      // required: true,
+      required: true,
     },
-    'Will Emil be lent money?': {
+    'Did you notice something?': {
       type: String,
-      // required: true,
-    },
-  },
-  fifthChatFeedback: {
-    'How well did you understand the conversation?': {
-      type: String,
-      // required: true,
-    },
-    'How many people reported sick?': {
-      type: String,
-      // required: true,
-    },
-    'Is the day going smoothly?': {
-      type: String,
-      // required: true,
+      required: true,
     },
   },
   'What do you think of the new representations?': {

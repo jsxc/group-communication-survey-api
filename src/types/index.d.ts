@@ -114,17 +114,11 @@ export type SurveyResult = {
   };
   thirdChatFeedback: {
     'How well did you understand the conversation?': string;
-    'Did Karl prepare the presentation?': string;
-    'Did Karl prepare the invitation?': string;
+    'Did you notice something?': string;
   };
   fourthChatFeedback: {
     'How well did you understand the conversation?': string;
-    'Will Emil be lent money?': string;
-  };
-  fifthChatFeedback: {
-    'How well did you understand the conversation?': string;
-    'How many people reported sick?': string;
-    'Is the day going smoothly?': string;
+    'Did you notice something?': string;
   };
   'What do you think of the new representations?': string;
 };
