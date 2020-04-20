@@ -1,3 +1,14 @@
+How coherent is the missing message element?
+How often could this missing message element be helpful for you?
+Do you think the missing message element should be integrated?
+How coherent is the inferred quote?
+How often could a inferred quote be helpful for you?
+Do you think the inferred quote should be integrated?
+Is the context of a message clearer compared to a inferred quote?
+Which presentation would you prefer for your favorite chat messenger?
+Is the context of a message clearer compared to a inferred quote?
+Is the context of a message clearer compared to the message tree?
+Which presentation would you prefer for your favorite chat messenger?
 What is your email address?
 Specify your sex:
 How old are you?
@@ -61,4 +72,4 @@ firstChatFeedback
 secondChatFeedback
 thirdChatFeedback
 fourthChatFeedback
-What do you think of the new representations?
+Is there a feature or visualisation which you miss in your favorite chat app?

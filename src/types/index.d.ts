@@ -1,4 +1,5 @@
 import { Mongoose } from 'mongoose';
+import * as KEYS from '../database/survey-results/keys';
 
 /* Server */
 
@@ -11,6 +12,12 @@ export type Database = Mongoose;
 /* Survey Results */
 
 export type SurveyResult = {
+  [KEYS.FEEDBACK_MISSING_MSG_COHERENT]: string;
+  [KEYS.FEEDBACK_MISSING_MSG_HELPFUL]: string;
+  [KEYS.FEEDBACK_MISSING_MSG_INTEGRATION]: string;
+  [KEYS.FEEDBACK_INFERRED_QUOTE_COHERENT]: string;
+  [KEYS.FEEDBACK_INFERRED_QUOTE_HELPFUL]: string;
+  [KEYS.FEEDBACK_INFERRED_QUOTE_INTEGRATION]: string;
   'What is your email address?': string;
   'Specify your sex:': string;
   'How old are you?': number;
@@ -114,11 +121,14 @@ export type SurveyResult = {
   };
   thirdChatFeedback: {
     'How well did you understand the conversation?': string;
-    'Did you notice something?': string;
+    [KEYS.FEEDBACK_TREE_CONTEXT]: string;
+    [KEYS.FEEDBACK_TREE_COMPARISON]: string;
   };
   fourthChatFeedback: {
     'How well did you understand the conversation?': string;
-    'Did you notice something?': string;
+    [KEYS.FEEDBACK_TAB_CONTEXT_INFERRED]: string;
+    [KEYS.FEEDBACK_TAB_CONTEXT_TREE]: string;
+    [KEYS.FEEDBACK_TAB_COMPARISON]: string;
   };
-  'What do you think of the new representations?': string;
+  'Is there a feature or visualisation which you miss in your favorite chat app?': string;
 };

@@ -1,6 +1,31 @@
 import { model, Schema, Model, Document } from 'mongoose';
+import * as KEYS from './keys';
 
 const surveyResultSchema: Schema = new Schema({
+  [KEYS.FEEDBACK_MISSING_MSG_COHERENT]: {
+    type: String,
+    required: true,
+  },
+  [KEYS.FEEDBACK_MISSING_MSG_HELPFUL]: {
+    type: String,
+    required: true,
+  },
+  [KEYS.FEEDBACK_MISSING_MSG_INTEGRATION]: {
+    type: String,
+    required: true,
+  },
+  [KEYS.FEEDBACK_INFERRED_QUOTE_COHERENT]: {
+    type: String,
+    required: true,
+  },
+  [KEYS.FEEDBACK_INFERRED_QUOTE_HELPFUL]: {
+    type: String,
+    required: true,
+  },
+  [KEYS.FEEDBACK_INFERRED_QUOTE_INTEGRATION]: {
+    type: String,
+    required: true,
+  },
   'What is your email address?': {
     type: String,
   },
@@ -328,7 +353,11 @@ const surveyResultSchema: Schema = new Schema({
       type: String,
       required: true,
     },
-    'Did you notice something?': {
+    [KEYS.FEEDBACK_TREE_CONTEXT]: {
+      type: String,
+      required: true,
+    },
+    [KEYS.FEEDBACK_TREE_COMPARISON]: {
       type: String,
       required: true,
     },
@@ -338,12 +367,20 @@ const surveyResultSchema: Schema = new Schema({
       type: String,
       required: true,
     },
-    'Did you notice something?': {
+    [KEYS.FEEDBACK_TAB_CONTEXT_INFERRED]: {
+      type: String,
+      required: true,
+    },
+    [KEYS.FEEDBACK_TAB_CONTEXT_TREE]: {
+      type: String,
+      required: true,
+    },
+    [KEYS.FEEDBACK_TAB_COMPARISON]: {
       type: String,
       required: true,
     },
   },
-  'What do you think of the new representations?': {
+  'Is there a feature or visualisation which you miss in your favorite chat app?': {
     type: String,
     required: true,
   },
