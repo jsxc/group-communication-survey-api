@@ -12,9 +12,13 @@ export type Database = Mongoose;
 /* Survey Results */
 
 export type SurveyResult = {
+  [KEYS.STAT_START]: Date;
+  [KEYS.STAT_END]: Date;
   [KEYS.FEEDBACK_MISSING_MSG_COHERENT]: string;
   [KEYS.FEEDBACK_MISSING_MSG_HELPFUL]: string;
   [KEYS.FEEDBACK_MISSING_MSG_INTEGRATION]: string;
+  [KEYS.FEEDBACK_INFERRED_QUOTE_FINE]: string;
+  [KEYS.FEEDBACK_INFERRED_QUOTE_FINE2]: string;
   [KEYS.FEEDBACK_INFERRED_QUOTE_COHERENT]: string;
   [KEYS.FEEDBACK_INFERRED_QUOTE_HELPFUL]: string;
   [KEYS.FEEDBACK_INFERRED_QUOTE_INTEGRATION]: string;
@@ -45,7 +49,7 @@ export type SurveyResult = {
   'What is your most common reaction if a statement is unclear to you?': string;
   'What is your reaction if you were not able to understand something acousticly?': string;
   'Is there a difference in communication between business and leisure groups?': string;
-  'What are you doing if you do not know someone in a group?': string;
+  [KEYS.GROUP_MSG_UNKNOWN_MEMBER]: string[];
   'Are you always knowing who will hear your message?': string;
   'Are you aware of that?': string;
   'In which cases is it especially important for you who will hear your messages?': string;
@@ -53,7 +57,7 @@ export type SurveyResult = {
   'Would it be sometimes important for you that nobody in the group can prove that you were part in a group?': string;
   'Do you thing there are use cases in which plausible deniability of group membership is important?': string;
   'Would it influence your behaviour if everything you say would be immediately published?': string;
-  'Are there special requirements for groups if confidential topics are discussed?': string;
+  [KEYS.GROUP_MSG_REQUIREMENT_CONFIDENTIAL]: string[];
   'Which statements are true for the admission of a new member in a business group?': {
     'Everyone can join': boolean;
     "It's ok if someone knows the new member": boolean;

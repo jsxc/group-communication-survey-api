@@ -2,6 +2,14 @@ import { model, Schema, Model, Document } from 'mongoose';
 import * as KEYS from './keys';
 
 const surveyResultSchema: Schema = new Schema({
+  [KEYS.STAT_START]: {
+    type: Date,
+    required: true,
+  },
+  [KEYS.STAT_END]: {
+    type: Date,
+    required: true,
+  },
   [KEYS.FEEDBACK_MISSING_MSG_COHERENT]: {
     type: String,
     required: true,
@@ -11,6 +19,14 @@ const surveyResultSchema: Schema = new Schema({
     required: true,
   },
   [KEYS.FEEDBACK_MISSING_MSG_INTEGRATION]: {
+    type: String,
+    required: true,
+  },
+  [KEYS.FEEDBACK_INFERRED_QUOTE_FINE]: {
+    type: String,
+    required: true,
+  },
+  [KEYS.FEEDBACK_INFERRED_QUOTE_FINE2]: {
     type: String,
     required: true,
   },
@@ -131,8 +147,8 @@ const surveyResultSchema: Schema = new Schema({
     type: String,
     required: true,
   },
-  'What are you doing if you do not know someone in a group?': {
-    type: String,
+  [KEYS.GROUP_MSG_UNKNOWN_MEMBER]: {
+    type: [String],
     required: true,
   },
   'Are you always knowing who will hear your message?': {
@@ -162,8 +178,8 @@ const surveyResultSchema: Schema = new Schema({
     type: String,
     required: true,
   },
-  'Are there special requirements for groups if confidential topics are discussed?': {
-    type: String,
+  [KEYS.GROUP_MSG_REQUIREMENT_CONFIDENTIAL]: {
+    type: [String],
     required: true,
   },
   'Which statements are true for the admission of a new member in a business group?': {

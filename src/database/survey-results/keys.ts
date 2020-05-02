@@ -5,6 +5,10 @@ export const FEEDBACK_MISSING_MSG_HELPFUL =
 export const FEEDBACK_MISSING_MSG_INTEGRATION =
   'Do you think the missing message element should be integrated?';
 
+export const FEEDBACK_INFERRED_QUOTE_FINE =
+  'Did you notice that Doris is fine without inferred quotes?';
+export const FEEDBACK_INFERRED_QUOTE_FINE2 =
+  'Did you notice that Doris is fine with inferred quotes?';
 export const FEEDBACK_INFERRED_QUOTE_COHERENT =
   'How coherent is the inferred quote?';
 export const FEEDBACK_INFERRED_QUOTE_HELPFUL =
@@ -23,3 +27,11 @@ export const FEEDBACK_TAB_CONTEXT_TREE =
   'Is the context of a message clearer compared to the message tree?';
 export const FEEDBACK_TAB_COMPARISON =
   'Which presentation would you prefer for your favorite chat messenger?';
+
+export const STAT_START = 'stat_start';
+export const STAT_END = 'stat_end';
+
+export const GROUP_MSG_UNKNOWN_MEMBER =
+  'What are you doing if you do not know someone in a group?';
+export const GROUP_MSG_REQUIREMENT_CONFIDENTIAL =
+  'Are there special requirements for groups if confidential topics are discussed?';

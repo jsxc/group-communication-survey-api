@@ -1,3 +1,9 @@
+Did you notice that Doris is fine without inferred quotes?
+Did you notice that Doris is fine with inferred quotes?
+stat_start
+stat_end
+What are you doing if you do not know someone in a group?
+Are there special requirements for groups if confidential topics are discussed?
 How coherent is the missing message element?
 How often could this missing message element be helpful for you?
 Do you think the missing message element should be integrated?
