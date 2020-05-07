@@ -19,7 +19,7 @@
 
 ### Running
 
-- `❯ docker-compose --file docker-compose.prod.yml up -d --build`
+- `❯ docker-compose up -d --build`
 
 ## Development
 
