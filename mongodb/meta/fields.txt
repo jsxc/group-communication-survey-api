@@ -36,7 +36,7 @@ If I want to leave a group in my favorite chat app, I will always give a reason
 Are there cases where two or more people are talking at the same time?
 What is the result if two or more people are talking at the same time?
 What is the most common reaction if two or more people are talking at the same time?
-What do you thing are the most frequent reasons of distraction even if you are interested at some discussion?
+What do you think are the most frequent reasons of distraction even if you are interested at some discussion?
 What are you doing if you are announcing something important?
 Imagine you were distracted and you are now unable to follow the conversation. How do you react?
 What is your most common reaction if a statement is unclear to you?
@@ -48,7 +48,7 @@ Are you aware of that?
 In which cases is it especially important for you who will hear your messages?
 Would it be sometimes important for you that nobody in the group can prove that you said something?
 Would it be sometimes important for you that nobody in the group can prove that you were part in a group?
-Do you thing there are use cases in which plausible deniability of group membership is important?
+Do you think there are use cases in which plausible deniability of group membership is important?
 Would it influence your behaviour if everything you say would be immediately published?
 Are there special requirements for groups if confidential topics are discussed?
 Which statements are true for the admission of a new member in a business group?
@@ -63,7 +63,7 @@ How many groups do you use regularly?
 How many members does the smallest group have?
 How many members does the largest group have?
 Do you expect that everyone reads your message in a group chat?
-Do you thing everyone is reading all your messages in a group chat?
+Do you think everyone is reading all your messages in a group chat?
 Are you always reading all messages in a group chat?
 Would you publish all your conversations in your favorite group chat app?
 Would you publish a complete list of groups you are part of in your favorite group chat app?

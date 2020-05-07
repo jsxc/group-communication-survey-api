@@ -123,7 +123,7 @@ const surveyResultSchema: Schema = new Schema({
   'What is the most common reaction if two or more people are talking at the same time?': {
     type: String,
   },
-  'What do you thing are the most frequent reasons of distraction even if you are interested at some discussion?': {
+  'What do you think are the most frequent reasons of distraction even if you are interested at some discussion?': {
     type: String,
     required: true,
   },
@@ -170,7 +170,7 @@ const surveyResultSchema: Schema = new Schema({
     type: String,
     required: true,
   },
-  'Do you thing there are use cases in which plausible deniability of group membership is important?': {
+  'Do you think there are use cases in which plausible deniability of group membership is important?': {
     type: String,
     required: true,
   },
@@ -307,7 +307,7 @@ const surveyResultSchema: Schema = new Schema({
   'Do you expect that everyone reads your message in a group chat?': {
     type: String,
   },
-  'Do you thing everyone is reading all your messages in a group chat?': {
+  'Do you think everyone is reading all your messages in a group chat?': {
     type: String,
   },
   'Are you always reading all messages in a group chat?': {
