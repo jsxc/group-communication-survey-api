@@ -42,6 +42,18 @@ const surveyResultSchema: Schema = new Schema({
     type: String,
     required: true,
   },
+  [KEYS.DIGITAL_JOIN_GOOD_FRIENDS]: {
+    type: String,
+    required: true,
+  },
+  [KEYS.DIGITAL_JOIN_BUSINESS]: {
+    type: String,
+    required: true,
+  },
+  [KEYS.DIGITAL_JOIN_CLUB]: {
+    type: String,
+    required: true,
+  },
   'What is your email address?': {
     type: String,
   },
@@ -317,9 +329,6 @@ const surveyResultSchema: Schema = new Schema({
     type: String,
   },
   'Would you publish a complete list of groups you are part of in your favorite group chat app?': {
-    type: String,
-  },
-  'How do you react if a new member joins a group of good friends/business group/club group?': {
     type: String,
   },
   "What is your most common reaction if a new member, which you don't like, is added to a group?": {
