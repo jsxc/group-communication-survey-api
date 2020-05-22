@@ -1,7 +1,11 @@
-Did you notice that Doris is fine without inferred quotes?
-Did you notice that Doris is fine with inferred quotes?
+What is your email address?
+Specify your sex:
+How old are you?
+Which region are you from?
 stat_start
 stat_end
+Did you notice that Doris is fine without inferred quotes?
+Did you notice that Doris is fine with inferred quotes?
 What are you doing if you do not know someone in a group?
 Are there special requirements for groups if confidential topics are discussed?
 How coherent is the missing message element?
@@ -15,10 +19,6 @@ Which presentation would you prefer for your favorite chat messenger?
 Is the context of a message clearer compared to a inferred quote?
 Is the context of a message clearer compared to the message tree?
 Which presentation would you prefer for your favorite chat messenger?
-What is your email address?
-Specify your sex:
-How old are you?
-Which region are you from?
 Even if I am not allowed to talk, I always have the possibility to do so
 I am always able to hear everyone speaking
 I am always attentive during a discussion
